@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    background-color: #f1f1f1;
+    height: 75%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+   
+}
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    border: 2px solid #f1f1f1;
+}
+.input-group{
+    padding:20px;
+}
+.input-group label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.already-member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: larger;
+}
+.input-group input {
+    width: 100%;
+    padding: 15px; /* Increased padding to make the input box bigger */
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* Added height to make the input box longer */
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.signup {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4a7a7a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: fit-content;
+}
+.reset {
+    padding: 10px 20px;
+    border: none;
+    background-color: #c31c1c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: fit-content;
+}
+.signup:hover {
+    background-color: #3a5a5a;
+}
+.reset:hover {
+    background-color: #a31c1c;
+}
+#role {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
